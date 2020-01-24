@@ -1,0 +1,108 @@
+* {
+    transition: all .1s ease-in-out;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/liver_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 173px;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.title {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.title_main {
+    font-size: 66px;
+    text-transform: uppercase;
+    line-height: 80px;
+    font-weight: 300;
+    margin-bottom: 70px;
+    color: white;
+}
+
+.sl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 5%;
+
+}
+
+.sl_slide {
+    align-self: center;
+    vertical-align: middle;
+    position: relative;
+    padding: 0 20px;
+    margin: auto;
+}
+
+.overlay {
+    background-color: yellowgreen;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 50px;
+    opacity: 0;
+    transition: .3s ease;
+    width: 300px;
+    height: 350px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.overlay:hover {
+    opacity: .9;
+    cursor: pointer;
+}
+
+h3 {
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 2);
+    font-size: 100px;
+}
+
+.img-container {
+    width: 300px;
+}
+
+img {
+    max-width: 300px;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 2);
+    z-index: 4;
+}
+
+.slick-prev {
+    width: 50px;
+    height: 50px;
+}
+
+.prev {
+    width: 50px;
+    height: 50px;
+    background-color: yellowgreen;
+}
